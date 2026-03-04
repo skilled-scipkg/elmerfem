@@ -1,0 +1,88 @@
+# elmerfem documentation map: Examples and Tutorials
+
+Generated from documentation roots:
+- `ReleaseNotes`
+- `compilation_instructions`
+- `elmerice/ReleaseNotes`
+- `fhutiter/doc`
+- `matc/doc`
+- `elmerice/Solvers/Documentation`
+- `elmerice/UserFunctions/Documentation`
+- `elmerice/Utils/Documentation`
+- `ElmerGUI/samples`
+- `elmerice/examples`
+- `fem/examples`
+- `fhutiter/examples`
+- `elmergrid/tests`
+- `elmerice/Tests`
+- `fem/tests`
+- `ElmerWorkflows/FreeCADBatchFEMTools/tests`
+- `fem/src/binio/test`
+
+Total docs grouped in this topic: 64
+
+## File inventory
+- `elmerice/examples/Test_MshGlacierDEM/Serial/README.txt` | title: .so pour unix | headings: .so pour unix; .dylib pour Mac; # .so pour unix
+- `elmerice/examples/Test_MshGlacierDEM/Partitioned/README.txt` | title: .so pour unix | headings: .so pour unix; .dylib pour Mac; # .so pour unix
+- `elmerice/examples/Inverse_Methods/DATA/README.md` | title: SSA inverse methods test cases | headings: SSA inverse methods test cases; ncks -d x,-1515000.0,-535000.0,4 -d y,135000.0,1040000.0,4 antarctica_ice_velocity_450m_v2.nc RonneFilchner.nc; ncatted -O -a _FillValue,thickness,o,f,-9999 BedMachineAntarctica_2019-11-05_v01_m.nc
+- `elmerice/examples/Inverse_Methods/README.md` | title: Inverse methods test cases | headings: Inverse methods test cases
+- `elmerice/examples/Inverse_Methods/MassConservation/README.md` | title: Mass Conservation | headings: Mass Conservation; Content
+- `elmerice/examples/InverseMethods_OLD/README.md` | title: Readme | headings: (no heading extracted)
+- `elmerice/examples/Inverse_Methods/RonneFilchner_SSA/README.md` | title: Ronne-Filchner these case | headings: Ronne-Filchner these case
+- `elmerice/examples/Inverse_Methods/MacAyeal_Stokes/README.md` | title: Stokes inverse methods test cases | headings: Stokes inverse methods test cases
+- `elmerice/examples/Inverse_Methods/MacAyeal_SSA/README.md` | title: SSA inverse methods test cases | headings: SSA inverse methods test cases
+- `elmerice/examples/Inverse_Methods/MassConservation/src/README.md` | title: src | headings: src; Content
+- `elmerice/examples/Inverse_Methods/MassConservation/Optimisation/README.md` | title: Optimisation | headings: Optimisation; Content
+- `elmerice/examples/Inverse_Methods/MassConservation/GradientValidation/README.md` | title: Gradient Validation | headings: Gradient Validation; Content
+- `elmerice/examples/Inverse_Methods/MassConservation/DirectValidation/README.md` | title: Direct Validation | headings: Direct Validation; Content
+- `elmerice/examples/Inverse_Methods/src/README.md` | title: Readme | headings: (no heading extracted)
+- `elmerice/examples/Inverse_Methods/SCRIPTS/README.md` | title: Readme | headings: (no heading extracted)
+- `elmerice/examples/ISMIP-HOM/F000/README.txt` | title: Readme | headings: (no heading extracted)
+- `elmerice/examples/ISMIP-HOM/D010/README.txt` | title: Readme | headings: (no heading extracted)
+- `elmerice/examples/ISMIP-HOM/C010/README.txt` | title: Readme | headings: (no heading extracted)
+- `elmerice/examples/ISMIP-HOM/B010/README.txt` | title: Readme | headings: (no heading extracted)
+- `elmerice/Tests/ElmerIceSolver_test_how-to.txt` | title: ElmerIce Solver test case "How-to" | headings: ElmerIce Solver test case "How-to"; A. Options; B. How to create a test
+- `elmerice/Solvers/Documentation/M1QN3.md` | title: Solver m1qn3 | headings: Solver m1qn3; General Information; General Description
+- `elmerice/Solvers/Documentation/GetHydrostaticLoads.md` | title: GetHydrostaticLoads Solver | headings: GetHydrostaticLoads Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/GMValid.md` | title: Solver GMValid | headings: Solver GMValid; General Information; General Description
+- `elmerice/Solvers/Documentation/FabricSolve.md` | title: Fabric Evolution - DG Fabric Solver | headings: Fabric Evolution - DG Fabric Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/CalvingRemeshMMG.md` | title: Calving Remesh MMG | headings: Calving Remesh MMG; General Information; General Description
+- `elmerice/Solvers/Documentation/Calving.md` | title: Solver Calving2D | headings: Solver Calving2D; General Information; General Description
+- `elmerice/Solvers/Documentation/BasalMelt3D.md` | title: Solver BasalMelt3D | headings: Solver BasalMelt3D; General Information; General Description
+- `elmerice/Solvers/Documentation/TemperateIce.md` | title: TemperateIce Solver | headings: TemperateIce Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/SSA.md` | title: Solver Shallow Stream/Shelf Approximation (SSA) | headings: Solver Shallow Stream/Shelf Approximation (SSA); General Information; History
+- `elmerice/Utils/Documentation/ProjUtils.md` | title: Module  ProjUtils | headings: Module  ProjUtils; General Information; General Description
+- `elmerice/Solvers/Documentation/ThicknessSolver.md` | title: Solver for the Thickness evolution equation | headings: Solver for the Thickness evolution equation; General Information; History
+- `elmerice/Solvers/Documentation/Flotation.md` | title: Solver Flotation | headings: Solver Flotation; General Information; History
+- `elmerice/Solvers/Documentation/CovarianceVectorMultiplySolver.md` | title: Covariance Vector Multiply Solver {#Covariance_Vector_product} | headings: Covariance Vector Multiply Solver {#Covariance_Vector_product}; General Information; Remark
+- `elmerice/Solvers/Documentation/BackgroundErrorCostSolver.md` | title: Background Error Cost Solver {#Background_Error} | headings: Background Error Cost Solver {#Background_Error}; General Information; Remark
+- `elmerice/Solvers/Documentation/Remesh.md` | title: Solver Remesh (& CheckConvergence) | headings: Solver Remesh (& CheckConvergence); General Information; General Description
+- `elmerice/Solvers/Documentation/PorousSolve.md` | title: Snow/firn rheology - Solver Porous Solver | headings: Snow/firn rheology - Solver Porous Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/Pointwise.md` | title: Pointwise - inverse distance interpolation (legacy solver!) | headings: Pointwise - inverse distance interpolation (legacy solver!); General Information; General Description
+- `elmerice/Solvers/Documentation/NodalGradient.md` | title: Nodal Gradient | headings: Nodal Gradient; General Information; General Description
+- `elmerice/Solvers/Documentation/MeshAdaptationMetricIntersection.md` | title: Mesh Adaptation (metric intersection) | headings: Mesh Adaptation (metric intersection); General Information; General Description
+- `elmerice/Solvers/Documentation/MeshAdaptationMetric.md` | title: Mesh Adaptation (metric) | headings: Mesh Adaptation (metric); General Information; General Description
+- `elmerice/Solvers/Documentation/MeshAdaptationMMG2D.md` | title: Mesh Adaptation (MMG2D) | headings: Mesh Adaptation (MMG2D); General Information; General Description
+- `elmerice/Solvers/Documentation/IntegratedVelocity.md` | title: IntegratedVelocity Solver | headings: IntegratedVelocity Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/IntegrateVertically.md` | title: IntegrateVertically Solver | headings: IntegrateVertically Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/HydrologyIDS.md` | title: Inefficient drainage system solver | headings: Inefficient drainage system solver; General Information; General Description
+- `elmerice/Solvers/Documentation/HydrologyEPL.md` | title: Efficient drainage system solver | headings: Efficient drainage system solver; General Information; General Description
+- `elmerice/Solvers/Documentation/HydroRestart.md` | title: Solver HydroRestart | headings: Solver HydroRestart; General Information; General Description
+- `elmerice/Solvers/Documentation/GroundedSolver.md` | title: Solver Grounded Solver | headings: Solver Grounded Solver; General Information; Versions
+- `elmerice/Solvers/Documentation/Enthalpy.md` | title: Enthalpy Solver | headings: Enthalpy Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/EmergenceVelocity.md` | title: Retrieve Emergence Velocity | headings: Retrieve Emergence Velocity; General Information; General Description
+- `elmerice/Solvers/Documentation/ComputeDevStress.md` | title: Solver ComputeDevStress | headings: Solver ComputeDevStress; General Information; General Description
+- `elmerice/Solvers/Documentation/SIA.md` | title: Solver Shallow Ice Approximation (SIA) | headings: Solver Shallow Ice Approximation (SIA); General Information; General Description
+- `elmerice/Solvers/Documentation/Normal.md` | title: Solver ComputeNormal | headings: Solver ComputeNormal; General Information; General Description
+- `elmerice/Solvers/Documentation/ForceToStress.md` | title: ForceToStress Solver | headings: ForceToStress Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/FlowDepth.md` | title: Solver FlowDepth Solver | headings: Solver FlowDepth Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/ExportVertically.md` | title: Solver ExportVertically | headings: Solver ExportVertically; General Information; General Description
+- `elmerice/Solvers/Documentation/EigenValues.md` | title: Solver ComputeEigenValues | headings: Solver ComputeEigenValues; General Information; General Description
+- `elmerice/Solvers/Documentation/DeformationalHeat.md` | title: DeformationalHeat Solver | headings: DeformationalHeat Solver; General Information; General Description
+- `elmerice/Solvers/Documentation/ComputeStrainRate.md` | title: Solver ComputeStrainRate | headings: Solver ComputeStrainRate; General Information; General Description
+- `elmerice/Solvers/Documentation/AdvReactDensity.md` | title: Solving the Mass Conservation of Snow/Firn | headings: Solving the Mass Conservation of Snow/Firn; General Description; SIF contents
+- `elmerice/Solvers/Documentation/AdvReactDating.md` | title: Solving the age equation | headings: Solving the age equation; General Description; SIF contents
+- `elmerice/examples/Test_Scattered2DDataInterpolator/Rand200.txt` | title: Rand200 | headings: (no heading extracted)
+- `elmerice/examples/Test_Scattered2DDataInterpolator/FlightLines.txt` | title: Flightlines | headings: (no heading extracted)
+- `elmerice/examples/Test_Glen_2D/REAME.txt` | title: Reame | headings: (no heading extracted)
+- `elmerice/examples/Inverse_Methods/DATA/MacAyeal_VELOCITIES.txt` | title: Macayeal Velocities | headings: (no heading extracted)

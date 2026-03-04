@@ -1,0 +1,381 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "elmerfem",
+  "evidence": {
+    "core_skills": [
+      "elmerfem-build-and-install",
+      "elmerfem-examples-and-tutorials",
+      "elmerfem-fem",
+      "elmerfem-elmerice",
+      "elmerfem-api-and-scripting",
+      "elmerfem-simulation-workflows"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/elmerfem-build-and-install.md",
+      "skills/.evidence/elmerfem-examples-and-tutorials.md",
+      "skills/.evidence/elmerfem-fem.md",
+      "skills/.evidence/elmerfem-elmerice.md",
+      "skills/.evidence/elmerfem-api-and-scripting.md",
+      "skills/.evidence/elmerfem-simulation-workflows.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/elmerfem-api-and-scripting/SKILL.md",
+        "skills/elmerfem-build-and-install/SKILL.md",
+        "skills/elmerfem-elmerice/SKILL.md",
+        "skills/elmerfem-examples-and-tutorials/SKILL.md",
+        "skills/elmerfem-fem/SKILL.md",
+        "skills/elmerfem-simulation-workflows/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/elmerfem-api-and-scripting/SKILL.md",
+        "skills/elmerfem-build-and-install/SKILL.md",
+        "skills/elmerfem-elmerice/SKILL.md",
+        "skills/elmerfem-examples-and-tutorials/SKILL.md",
+        "skills/elmerfem-fem/SKILL.md",
+        "skills/elmerfem-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/elmerfem-analysis-and-output/SKILL.md",
+        "skills/elmerfem-analysis-and-output/references/source_map.md",
+        "skills/elmerfem-api-and-scripting/SKILL.md",
+        "skills/elmerfem-api-and-scripting/references/source_map.md",
+        "skills/elmerfem-build-and-install/SKILL.md",
+        "skills/elmerfem-build-and-install/references/source_map.md",
+        "skills/elmerfem-elmergui/SKILL.md",
+        "skills/elmerfem-elmergui/references/source_map.md",
+        "skills/elmerfem-elmerice/SKILL.md",
+        "skills/elmerfem-elmerice/references/source_map.md",
+        "skills/elmerfem-examples-and-tutorials/SKILL.md",
+        "skills/elmerfem-examples-and-tutorials/references/source_map.md",
+        "skills/elmerfem-fem/SKILL.md",
+        "skills/elmerfem-fem/references/source_map.md",
+        "skills/elmerfem-getting-started/SKILL.md",
+        "skills/elmerfem-getting-started/references/source_map.md",
+        "skills/elmerfem-index/SKILL.md",
+        "skills/elmerfem-inputs-and-modeling/SKILL.md",
+        "skills/elmerfem-inputs-and-modeling/references/source_map.md",
+        "skills/elmerfem-parallel-hpc/SKILL.md",
+        "skills/elmerfem-parallel-hpc/references/source_map.md",
+        "skills/elmerfem-releasenotes/SKILL.md",
+        "skills/elmerfem-releasenotes/references/source_map.md",
+        "skills/elmerfem-simulation-workflows/SKILL.md",
+        "skills/elmerfem-simulation-workflows/references/source_map.md",
+        "skills/elmerfem-theory-and-methods/SKILL.md",
+        "skills/elmerfem-theory-and-methods/references/source_map.md",
+        "skills/elmerfem-troubleshooting/SKILL.md",
+        "skills/elmerfem-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/elmerfem-analysis-and-output/SKILL.md",
+        "skills/elmerfem-analysis-and-output/references/source_map.md",
+        "skills/elmerfem-api-and-scripting/SKILL.md",
+        "skills/elmerfem-api-and-scripting/references/source_map.md",
+        "skills/elmerfem-build-and-install/SKILL.md",
+        "skills/elmerfem-build-and-install/references/source_map.md",
+        "skills/elmerfem-elmergui/SKILL.md",
+        "skills/elmerfem-elmergui/references/source_map.md",
+        "skills/elmerfem-elmerice/SKILL.md",
+        "skills/elmerfem-elmerice/references/source_map.md",
+        "skills/elmerfem-examples-and-tutorials/SKILL.md",
+        "skills/elmerfem-examples-and-tutorials/references/source_map.md",
+        "skills/elmerfem-fem/SKILL.md",
+        "skills/elmerfem-fem/references/source_map.md",
+        "skills/elmerfem-getting-started/SKILL.md",
+        "skills/elmerfem-getting-started/references/source_map.md",
+        "skills/elmerfem-index/SKILL.md",
+        "skills/elmerfem-inputs-and-modeling/SKILL.md",
+        "skills/elmerfem-inputs-and-modeling/references/source_map.md",
+        "skills/elmerfem-parallel-hpc/SKILL.md",
+        "skills/elmerfem-parallel-hpc/references/source_map.md",
+        "skills/elmerfem-releasenotes/SKILL.md",
+        "skills/elmerfem-releasenotes/references/source_map.md",
+        "skills/elmerfem-simulation-workflows/SKILL.md",
+        "skills/elmerfem-simulation-workflows/references/source_map.md",
+        "skills/elmerfem-theory-and-methods/SKILL.md",
+        "skills/elmerfem-theory-and-methods/references/source_map.md",
+        "skills/elmerfem-troubleshooting/SKILL.md",
+        "skills/elmerfem-troubleshooting/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "ReleaseNotes",
+      "compilation_instructions",
+      "elmerice/ReleaseNotes",
+      "elmerice/Solvers/Documentation",
+      "elmerice/UserFunctions/Documentation",
+      "elmerice/Utils/Documentation",
+      "fhutiter/doc",
+      "matc/doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Root-level docs exist as files (README.adoc, CONTRIBUTING.md, CODE_OF_CONDUCT.md) outside docs_dirs.",
+      "Generator dry-run validated with explicit dirs; deterministic setup works after Python f-string compatibility patch.",
+      "Including test roots adds many *.txt/CMakeLists artifacts to doc grouping; consider filtering in later pass if routing quality drops."
+    ],
+    "package_name": "elmerfem",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "ElmerGUI/Application/src",
+      "ElmerGUI/PythonQt/src",
+      "ElmerGUIlogger/src",
+      "ElmerGUItester/src",
+      "ElmerWorkflows/FreeCADBatchFEMTools",
+      "elmergrid/src",
+      "elmerice/Solvers",
+      "elmerice/UserFunctions",
+      "elmerice/Utils",
+      "fem/src",
+      "fhutiter/src",
+      "mathlibs/src",
+      "matc/src",
+      "meshgen2d/src"
+    ],
+    "test_dirs": [
+      "ElmerWorkflows/FreeCADBatchFEMTools/tests",
+      "elmergrid/tests",
+      "elmerice/Tests",
+      "fem/src/binio/test",
+      "fem/tests"
+    ],
+    "tutorial_dirs": [
+      "ElmerGUI/samples",
+      "elmerice/examples",
+      "fem/examples",
+      "fhutiter/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/elmerfem-elmerfem",
+  "run_id": "compile_20260304T104037789772Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "elmerfem-analysis-and-output",
+      "elmerfem-api-and-scripting",
+      "elmerfem-build-and-install",
+      "elmerfem-elmergui",
+      "elmerfem-elmerice",
+      "elmerfem-examples-and-tutorials",
+      "elmerfem-fem",
+      "elmerfem-getting-started",
+      "elmerfem-index",
+      "elmerfem-inputs-and-modeling",
+      "elmerfem-parallel-hpc",
+      "elmerfem-releasenotes",
+      "elmerfem-simulation-workflows",
+      "elmerfem-theory-and-methods",
+      "elmerfem-troubleshooting"
+    ],
+    "core_skill_ids": [
+      "elmerfem-build-and-install",
+      "elmerfem-examples-and-tutorials",
+      "elmerfem-fem",
+      "elmerfem-elmerice",
+      "elmerfem-api-and-scripting",
+      "elmerfem-simulation-workflows"
+    ],
+    "deferred_gaps": [
+      "Root docs in repository top-level files should be explicitly incorporated during pass 2 enrichment.",
+      "Current generator treats many *.txt/CMakeLists.txt files as docs in knowledge roots; consider selective filtering if topic grouping becomes noisy.",
+      "Optional/third-party trees (umfpack, contrib, embedded metis) are not prioritized for core skill coverage unless user asks."
+    ],
+    "goal": "Generate and enrich a docs-first ElmerFEM skill set capped at 30 skills with high-signal core workflows.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Request triage across build, modeling, run, HPC, examples, and troubleshooting paths",
+          "Clear escalation order: docs -> examples/tests -> source maps",
+          "Module routing between fem, elmerice, elmergrid, and optional GUI components"
+        ],
+        "reason": "A strong router is critical for this multi-module package (core solver, ElmerIce, ElmerGrid, GUI tools).",
+        "skill_id": "elmerfem-index",
+        "source_hints": [
+          "README.adoc",
+          "skills/.compile_profile.json",
+          "CMakeLists.txt",
+          "fem/src",
+          "elmerice/Solvers",
+          "elmergrid/src"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Platform build workflows (Ubuntu, macOS, Windows-msys2, Nix)",
+          "Key CMake options and optional components (MPI/OpenMP/ElmerIce/GUI/NetCDF)",
+          "Sanity checks after build and common setup failures"
+        ],
+        "reason": "Build/configuration questions are likely first-contact requests and involve many optional dependencies.",
+        "skill_id": "elmerfem-build-and-install",
+        "source_hints": [
+          "compilation_instructions",
+          "CMakeLists.txt",
+          "ci",
+          "docker"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Canonical pipeline using ElmerGrid and ElmerSolver inputs",
+          "Run/restart/checkpoint patterns from examples and tests",
+          "Output artifact expectations and first validation checks"
+        ],
+        "reason": "Users need a canonical end-to-end run path from mesh/setup to solver output validation.",
+        "skill_id": "elmerfem-simulation-workflows",
+        "source_hints": [
+          "fem/examples",
+          "elmerice/examples",
+          "elmergrid/tests",
+          "fem/tests",
+          "elmerice/Tests"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Core input structure and solver/material/boundary configuration patterns",
+          "ElmerIce-specific solver configuration entry points",
+          "Doc-backed pitfalls for inconsistent units, BCs, and solver section wiring"
+        ],
+        "reason": "Model setup errors dominate solver issues; this skill should compress the highest-impact input patterns.",
+        "skill_id": "elmerfem-inputs-and-modeling",
+        "source_hints": [
+          "elmerice/Solvers/Documentation",
+          "elmerice/UserFunctions/Documentation",
+          "fem/examples",
+          "fem/tests",
+          "elmerice/examples"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Map common physics/problem types to representative examples",
+          "Minimal working command+input snippets",
+          "How to adapt example meshes/inputs safely"
+        ],
+        "reason": "Runnable examples provide minimal reproducible templates for most user requests.",
+        "skill_id": "elmerfem-examples-and-tutorials",
+        "source_hints": [
+          "fem/examples",
+          "elmerice/examples",
+          "fhutiter/examples",
+          "ElmerGUI/samples"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI/OpenMP-related build/runtime flags and prerequisites",
+          "Mesh partitioning and parallel execution touchpoints",
+          "Performance/stability troubleshooting on cluster runs"
+        ],
+        "reason": "HPC execution and partitioning are central to Elmer production usage.",
+        "skill_id": "elmerfem-parallel-hpc",
+        "source_hints": [
+          "CMakeLists.txt",
+          "ci/LUMI",
+          "elmergrid/tests/parallel",
+          "fem/tests"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Build-time dependency and linker errors",
+          "Runtime solver divergence and malformed input diagnostics",
+          "Regression checks anchored to existing test cases"
+        ],
+        "reason": "A focused troubleshooting skill reduces support turnaround by centralizing high-frequency failures.",
+        "skill_id": "elmerfem-troubleshooting",
+        "source_hints": [
+          "ReleaseNotes",
+          "elmerice/ReleaseNotes",
+          "fem/tests",
+          "elmerice/Tests"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "elmerfem-build-and-install",
+      "elmerfem-examples-and-tutorials",
+      "elmerfem-fem",
+      "elmerfem-elmerice",
+      "elmerfem-api-and-scripting",
+      "elmerfem-simulation-workflows"
+    ],
+    "docs_only": false,
+    "errors": [],
+    "index_skills": [
+      "elmerfem-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": true,
+    "planned_skill_ids": [
+      "elmerfem-index",
+      "elmerfem-build-and-install",
+      "elmerfem-simulation-workflows",
+      "elmerfem-inputs-and-modeling",
+      "elmerfem-examples-and-tutorials",
+      "elmerfem-parallel-hpc",
+      "elmerfem-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 15,
+    "source_inventory": {},
+    "source_links_total": 626,
+    "topic_skills": 14,
+    "warnings": []
+  }
+}
